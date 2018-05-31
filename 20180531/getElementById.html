@@ -5,10 +5,9 @@
    <meta name="viewport" content="width=device-width, initial-scale=1"/>
    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
    <link rel="stylesheet" href="https://whgnlwls.github.io/20180524/sample.css"/>
-   <script src="../js/sample.js"></script>
    <script>
-     function fnGetElementsByld() {
-       var accessTag = document.getElementByld("input_id1");
+     function fnGetElementsById() {
+       var accessTag = document.getElementById("input_id1");
        console.log(accessTag.tagName);
        accessTag.setAttribute("value", "getElementByld실행!");
      }
@@ -32,7 +31,7 @@
         빈칸에 검색어를 넣고 입력해 주세요.
        </form>
        <form>
-         <input type="button" onclick="fnGetElementsByld();" value="변경실행"/>
+         <input type="button" onclick="fnGetElementsById();" value="변경실행"/>
        </form>
    </section>
    <footer>
