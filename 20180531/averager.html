@@ -19,26 +19,15 @@
    <section>
     <h4>학생 성적 평균</h4>
      <script>
-
-     
        var arr = new Array();
-       
-
-     
        var peopleNum = window.prompt("몇 명입니까?");
        peopleNum = parseFloat(peopleNum);
        console.log(peopleNum);
-       
-
-     
        for (var i = 0; i < peopleNum; i++ ) {
            arr[i] = window.prompt(i + 1, "학생성적");
        arr[i] = parseFloat(arr[i]);
        console.log(arr);
        }
-       
-
-
        var aver = 0;
        for (var i = 0; i < peopleNum; i++ ) {
        aver = arr[i] + aver;
@@ -47,13 +36,7 @@
        }
        aver = aver / peopleNum;
        console.log(aver);
-       
-
-     
-     document.write("학생 성적 평균 :",aver,"<br/>");
-     
-
-    
+       document.write("학생 성적 평균 :",aver,"<br/>");
      </script>
    </section>
    <footer>
