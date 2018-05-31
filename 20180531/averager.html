@@ -1,0 +1,64 @@
+<!doctype  html> <!-- averager.html -->
+<html lang="ko">
+ <head>
+   <meta charset="utf-8"/>
+   <meta name="viewport" content="width=device-width, initial-scale=1"/>
+   <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+   <link rel="stylesheet" href="https://whgnlwls.github.io/20180524/sample.css"/>
+   <title>웹 프로그래밍 실습</title>
+ </head>
+ <body>
+   <header>
+     <h2>성적</h2>
+   </header>
+   <nav>
+    <ul>
+      <li><a href="http://~kdhong.ac.kr">실습서버</a></li>
+    </ul>
+   </nav>
+   <section>
+    <h4>학생 성적 평균</h4>
+     <script>
+     
+     /***************************************************/
+     
+       var arr = new Array();
+       
+     /***************************************************/  
+     
+       var peopleNum = window.prompt("몇 명입니까?");
+       peopleNum = parseFloat(peopleNum);
+       console.log(peopleNum);
+       
+     /***************************************************/  
+     
+       for (var i = 0; i < peopleNum; i++ ) {
+           arr[i] = window.prompt(i + 1, "학생성적");
+       arr[i] = parseFloat(arr[i]);
+       console.log(arr);
+       }
+       
+     /***************************************************/
+
+       var aver = 0;
+       for (var i = 0; i < peopleNum; i++ ) {
+       aver = arr[i] + aver;
+       console.log(arr[i]);
+       console.log(aver);
+       }
+       aver = aver / peopleNum;
+       console.log(aver);
+       
+     /***************************************************/
+     
+     document.write("학생 성적 평균 :",aver,"<br/>");
+     
+     /***************************************************/
+    
+     </script>
+   </section>
+   <footer>
+     <p>&copy; 20XX Made by Korea. All rights reserved.</p>
+   </footer>
+ </body>
+</html>
