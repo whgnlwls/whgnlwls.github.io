@@ -12,17 +12,28 @@ a:link{
 color:blue;background-color:transparent;text-decoration:none;}
 section a:link{
 color:blue;background-color:transparent;text-decoration:none;}
+div a:link{
+color:blue;background-color:transparent;text-decoration:none;}
+
 a:visited{
 color:pink;background-color:transparent;text-decoration:none;}
 section a:visited{
 color:pink;background-color:transparent;text-decoration:none;}
+div a:visited{
+color:pink;background-color:transparent;text-decoration:none;}
+
 a:hover{
 color:red;background-color:transparent;text-decoration:underline;}
 section a:hover{
 color:red;background-color:transparent;text-decoration:underline;}
+div a:hover{
+color:red;background-color:transparent;text-decoration:underline;}
+
 a:active{
 color:blue;background-color:transparent;text-decoration:none;}
 section a:active{
+color:blue;background-color:transparent;text-decoration:none;}
+div a:active{
 color:blue;background-color:transparent;text-decoration:none;}
 
 [class*="col-"] { width:100% }
