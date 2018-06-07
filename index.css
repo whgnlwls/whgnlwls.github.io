@@ -9,7 +9,7 @@
 .banner li:hover { background-color:yellow; }
 .banner li img { width:30%; vertical-align:middle; }
 a:link{
-color:lightgreen;background-color:transparent;text-decoration:none;}
+color:blue;background-color:transparent;text-decoration:none;}
 section a:link{
 color:blue;background-color:transparent;text-decoration:none;}
 a:visited{
