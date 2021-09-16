@@ -5,12 +5,12 @@
 .menu ul, .banner ul { list-style-type:none; }
 .menu li { background-color:#A9A9A9; color:#000000; padding:10px; margin-bottom:10px; box-shadow:0 1px 3px #000000; }
 .menu li:hover { background-color:yellow; }
-.banner li { background-color:pink; border:2px solid #000000; padding:10px; margin-bottom:10px; box-shadow:0 1px 3px #000000; }
+.banner li { background-color:#A9A9A9; border:2px solid #000000; padding:10px; margin-bottom:10px; box-shadow:0 1px 3px #000000; }
 .banner li:hover { background-color:yellow; }
 .banner li img { width:30%; vertical-align:middle; }
- .menu li { background-color:pink; color:#000000; padding:10px; margin-bottom:10px; box-shadow:0 1px 3px #000000; }
+ .menu li { background-color:#A9A9A9; color:#000000; padding:10px; margin-bottom:10px; box-shadow:0 1px 3px #000000; }
  .menu li:hover { background-color:yellow; }
- .banner li { background-color:pink; border:2px solid #000000; padding:10px; margin-bottom:10px; box-shadow:0 1px 3px #000000; }
+ .banner li { background-color:#A9A9A9; border:2px solid #000000; padding:10px; margin-bottom:10px; box-shadow:0 1px 3px #000000; }
 +.banner li:hover { background-color:yellow; }
  .banner li img { width:30%; vertical-align:middle; }
 a:link{
