@@ -15,6 +15,10 @@ footer {
   color: #FFFFFF;
   padding: 0px;
   margin-top: 5%;
+  position: absolute;
+  left: 0%;
+  bottom:0%;
+  width:100%;
 }
 
 body {
@@ -25,12 +29,16 @@ body {
   color: #FFFFFF;
   text-align: center;
   background-color: #D2B48C;
-  width: 40%;
-  height: 100%;
+  width: 300px;
+  height: 250px;
   padding: 5%;
   margin: 5%;
   border-radius: 10px;
   box-shadow: 0px 0px 20px #000;
+  position: absolute;
+  left: 25%;
+  top:15%;
+
 }
 
 .login_title {
