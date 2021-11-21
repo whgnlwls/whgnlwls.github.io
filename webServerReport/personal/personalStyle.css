@@ -1,0 +1,69 @@
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+header {
+  background-color: #556B2F;
+  color: #FFFFFF;
+  padding: 0px;
+}
+
+footer {
+  background-color: #556B2F;
+  color: #FFFFFF;
+  padding: 0px;
+  margin-top: 5%;
+}
+
+body {
+  background-color: #FFFFFF;
+}
+
+.login_container {
+  color: #FFFFFF;
+  text-align: center;
+  background-color: #D2B48C;
+  width: 40%;
+  height: 100%;
+  padding: 5%;
+  margin: 5%;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px #000;
+}
+
+.login_title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 22px;
+  display: inline-block;
+  margin: 1%;
+  padding: 1%;
+}
+
+.login_text {
+  width: 50%;
+  height: 100%;
+  display: inline-block;
+  border: 1px;
+  border-radius: 3px;
+  color: white;
+  font-size: 17px;
+  font-weight: 500;
+  margin:1%;
+  padding:1%;
+}
+
+.login_submit {
+  width: 50%;
+  height: 100%;
+  background-color: #556B2F;
+  border: 1px;
+  border-radius: 3px;
+  color: white;
+  font-size: 17px;
+  font-weight: 500;
+  margin:5%;
+  padding:1%;
+}
