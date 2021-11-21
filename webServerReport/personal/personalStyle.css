@@ -39,10 +39,9 @@ body {
 .login_title {
   font-weight: bold;
   font-size: 22px;
-  margin: 1%;
+  margin: 5% 0% 1% 0%;
   padding: 1%;
   color: #FFFFFF;
-  margin-top: 5%;
 }
 
 .login_text {
@@ -54,7 +53,7 @@ body {
   color: white;
   font-size: 17px;
   font-weight: 500;
-  margin: 1%;
+  margin: 1% 0% 1% 0%;
   padding: 1%;
 }
 
@@ -67,6 +66,6 @@ body {
   color: white;
   font-size: 17px;
   font-weight: 500;
-  margin: 5%;
+  margin: 5% 0% 1% 0%;
   padding: 1%;
 }
