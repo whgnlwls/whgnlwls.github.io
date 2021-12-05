@@ -7,18 +7,23 @@
     <title>PERSONAL PROJECT</title>
   </head>
   <body>
-    <header>
-      <p>Daejeon University</p>
-      <h1>조휘진</h1>
-    </header>
+  	<div>
+  		<header>
+      		<p>Daejeon University</p>
+      		<h1>조휘진</h1>
+    	</header>
+  	</div>
     <!-- login form -->
     <div class="login_container">
       <form action="../jsp/personalLogin.jsp" method="post">
         <div class="login_title">웹서버 개인과제</div>
+        
         <div class="login_text">아이디</div>
-        <div><input type="text" name="userName" /></div>
+        <div><input type="text" name="userId"/></div>
+        
         <div class="login_text">비밀번호</div>
-        <div><input type="password" name="userPassword"/></div>
+        <div><input type="password" name="userPasswd"/></div>
+        
         <div><input class="submit_button" type="submit" style='cursor:pointer;' value="로그인" /></div>
         <div><input class="submit_button" type="button" onclick="location.href='../html/personalRegist.html'" style='cursor:pointer;' value="회원가입"/></div>
       </form>
