@@ -28,12 +28,12 @@ body {
 .login_container {
   background: #D2B48C;
   width: 300px;
-  height: 280px;
+  height: 250px;
   position: absolute;
   top: 50%;
   left: 50%;
-  margin: -140px 0 0 -150px;
-  border:1px solid #000000;
+  margin: -125px 0 0 -150px;
+  border: 1px solid #000000;
   text-align: center;
 }
 
@@ -46,6 +46,52 @@ body {
 }
 
 .login_text {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  border: 1px;
+  border-radius: 3px;
+  color: white;
+  font-size: 17px;
+  font-weight: 500;
+  margin: 1% 0% 1% 0%;
+  padding: 1%;
+}
+
+.regist_container {
+  background: #D2B48C;
+  width: 300px;
+  height: 450px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -225px 0 0 -150px;
+  border: 1px solid #000000;
+  text-align: center;
+}
+
+.regist_title {
+  font-weight: bold;
+  font-size: 22px;
+  margin: 5% 0% 1% 0%;
+  padding: 1%;
+  color: #FFFFFF;
+}
+
+.regist_text {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  border: 1px;
+  border-radius: 3px;
+  color: white;
+  font-size: 17px;
+  font-weight: 500;
+  margin: 1% 0% 1% 0%;
+  padding: 1%;
+}
+
+.regist_label {
   text-align: center;
   width: 100%;
   height: 100%;
@@ -73,4 +119,53 @@ body {
 
 .submit_button:hover {
   background-color: #84a61e
+}
+
+.submit_button_in {
+  background-color: #556B2F;
+  color: white;
+  font-size: 17px;
+  font-weight: 500;
+  width: 10%;
+  height: 100%;
+  margin: 5% 0% 1% 0%;
+  padding: 1%;
+  border: 1px;
+  border-radius: 3px;
+}
+
+.submit_button_in:hover {
+  background-color: #84a61e
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+table {
+  width: 100%;
+  height: 80%;
+}
+
+th,
+td {
+  text-align: center;
+  padding: 10px;
+  vertical-align: bottom;
+}
+
+tr:nth-child(odd) {
+  background-color: lightgray;
+}
+
+th {
+  background-color: gray;
+  color: white;
+}
+
+table.ex1 {
+  table-layout: auto;
 }
