@@ -7,20 +7,50 @@
     <title>PERSONAL PROJECT</title>
   </head>
   <body>
-    <header>
-      <p>Daejeon University</p>
-      <h1>조휘진</h1>
-    </header>
+    <div>
+  		<header>
+      		<p>Daejeon University</p>
+      		<h1>조휘진</h1>
+    	</header>
+  	</div>
     <!-- regist form -->
-    <div class="login_container">
+    <div class="regist_container">
       <form action="../jsp/personalRegist.jsp" method="post">
-        <div class="login_title">웹서버 개인과제</div>
-        <div class="login_text">신규 아이디</div>
-        <div><input type="text" name="userName" /></div>
-        <div class="login_text">신규 비밀번호</div>
-        <div><input type="password" name="userPassword" /></div>
-        <div><input class="submit_button" type="submit" style='cursor:pointer;' value="회원가입" /></div>
-        <div><input class="submit_button" type="button" onclick="location.href='../html/personalLogin.html'" style='cursor:pointer;' value="뒤로가기"/></div>
+        <div class="regist_title">웹서버 개인과제</div>
+        <fieldset>
+        	<div class="regist_text">계정</div>
+       		<label class="regist_label" for="userId">신규 아이디</label>
+        	<input type="text" name="userId"/><br/>
+        	<label class="regist_label" for="userPasswd">신규 비밀번호</label>
+        	<input type="password" name="userPasswd"/><br/>
+        </fieldset>
+        <fieldset>
+       		<div class="regist_text">개인정보</div>
+        	<label class="regist_label" for="userName">이름</label>
+        	<input type="text" name="userName"/><br/>
+        	<label class="regist_label" for="userPhone">전화번호</label>
+        	<input type="text" name="userPhone"/><br/>
+        	<label class="regist_label" for="userEmail">이메일</label>
+        	<input type="text" name="userEmail"/><br/>
+        </fieldset>
+        <fieldset>
+        	<div class="regist_text">성별</div>
+        	<label class="regist_label" for="userGender">남자</label>
+        	<input type="radio" name="userGender" value="남자" checked/>
+        	<label class="regist_label" for="userGender">여자</label>
+        	<input type="radio" name="userGender" value="여자"/>
+        </fieldset><br/>
+        <fieldset>
+        	<div class="regist_text">취미</div>
+        	<label class="regist_label" for="userHobby">낚시</label>
+        	<input type="checkbox" name="userHobby" value="낚시"/>
+        	<label class="regist_label" for="userHobby">바둑</label>
+        	<input type="checkbox" name="userHobby" value="바둑"/>
+        	<label class="regist_label" for="userHobby">독서</label>
+       		<input type="checkbox" name="userHobby" value="독서"/>
+        </fieldset><br/>
+        <input class="submit_button" type="submit" style='cursor:pointer;' value="회원가입" />
+      	<input class="submit_button" type="button" onclick="location.href='../html/personalLogin.html'" style='cursor:pointer;' value="뒤로가기"/>
       </form>
     </div>
     <div>
